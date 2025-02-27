@@ -87,7 +87,7 @@ function ProfilePageClient({
       toast.error("Failed to update follow status");
     } finally {
       setIsUpdatingFollow(false);
-    } 
+    }
   };
 
   const isOwnProfile =
