@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Socially is a modern social media platform built with cutting-edge technologies to provide a seamless and dynamic user experience.
 
-## Getting Started
+ 🌟 Features
+- Next.js App Router for efficient routing and navigation
+- PostgreSQL with Prisma for a scalable and reliable database
+- Clerk Authentication & Authorization for secure user management
+- Server Components, Layouts & Route Handlers for optimized performance
+- API Integration using Route Handlers
+- Data Fetching, Caching & Revalidation for fast and updated content
+- Client & Server Components for a balanced architecture
+- Dynamic & Static Routes for enhanced navigation
+- Styling with Tailwind CSS & Shadcn UI for a beautiful UI
+- File Uploads with UploadThing
+- Optimistic UI Updates for a smooth user experience
+- Server Actions & Forms for seamless interactivity
 
-First, run the development server:
+ 🛠️ Tech Stack
+- Framework: Next.js (App Router)
+- Database: PostgreSQL (via Prisma ORM)
+- Authentication: Clerk
+- Styling: Tailwind CSS, Shadcn UI
+- File Uploads: UploadThing
+- Deployment: Vercel
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+ 🚀 Getting Started
+ 1. Clone the repository:
+git clone https://github.com/Doyal-Saji-Vithayathil/socially.git
+cd socially
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ 2. Install dependencies:
+yarn install  # or npm install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Setup environment variables:
+Create a `.env` file and add the required variables:
+DATABASE_URL=your_postgres_url
 
-## Learn More
+NEXT_PUBLIC_CLERK_FRONTEND_API=your_clerk_api
 
-To learn more about Next.js, take a look at the following resources:
+CLERK_SECRET_KEY=your_clerk_secret
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+UPLOADTHING_SECRET=your_uploadthing_secret
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+ 4. Run the development server:
+yarn dev  # or npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The app will be available at `http://localhost:3000`
